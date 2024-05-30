@@ -1,0 +1,1 @@
+$execute as @s run title @s actionbar "\uE0$(unicode_num)" 

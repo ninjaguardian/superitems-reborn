@@ -1,0 +1,1 @@
+execute as @a[tag=cooldownleap] at @s run function superitems_reborn:cooldowns/launch
