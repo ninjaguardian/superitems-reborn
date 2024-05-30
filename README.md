@@ -1,4 +1,4 @@
-# Datapack for Superitems Reborn :(
+# Datapack for Superitems Reborn
 ### Authors
 
 - [@ninjaguardian](https://www.github.com/ninjaguardian)
