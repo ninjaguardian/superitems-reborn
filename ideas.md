@@ -11,4 +11,4 @@ Frozen - Sword
 
 
 # Item types
-- It's on school ipad notes
+- It's on school device notes
