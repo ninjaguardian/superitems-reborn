@@ -20,4 +20,4 @@ Frozen - Sword
 # Runic ingots
 - CustomModelData
 - Steel with blue
-- Use rescource pack to change name? somehow?
+- Use rescource pack to change name? somehow? SOLVED: /give @s sponge[item_name='{"text":"Cheese"}',custom_model_data=115]
