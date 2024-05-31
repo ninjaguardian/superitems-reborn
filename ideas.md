@@ -16,3 +16,8 @@ Frozen - Sword
 
 # Minor issue
 - When first getting a cooldown, when it uses add to get to the right value, it goes through all other unicode charecters
+
+# Runic ingots
+- CustomModelData
+- Steel with blue
+- Use rescource pack to change name? somehow?
