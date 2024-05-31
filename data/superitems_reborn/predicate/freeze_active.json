@@ -1,0 +1,24 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "flags": {
+      "is_sneaking": true
+    },
+    "equipment": {
+      "legs": {
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantments": "superitems_reborn:freeze",
+              "levels": {
+                "min": 1,
+                "max": 10
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
