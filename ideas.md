@@ -12,3 +12,7 @@ Frozen - Sword
 
 # Item types
 - It's on school device notes
+
+
+# Minor issue
+- When first getting a cooldown, when it uses add to get to the right value, it goes through all other unicode charecters

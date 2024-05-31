@@ -20,7 +20,31 @@
         {
           "effect": {
             "type": "minecraft:run_function",
-            "function": "freeze/freezeprep.mcfunction"
+            "function": "superitems_reborn:freeze/freezeprep"
+          },
+          "requirements": {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "superitems_reborn:shadow",
+                          "levels": {
+                            "min": 1,
+                            "max": 10
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       ]
