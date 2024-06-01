@@ -1,0 +1,44 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "flags": {
+            "is_sneaking": true
+          },
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "superitems_reborn:shadow",
+                    "levels": {
+                      "min": 1,
+                      "max": 10
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "#minecraft:air"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  

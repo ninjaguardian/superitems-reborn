@@ -1,6 +1,6 @@
-execute as @s if predicate superitems_reborn:is_sneaking at @s unless predicate superitems_reborn:in_air run function superitems_reborn:unicode_sender/prep_unicode/shadow_cooldown
-execute as @s unless score @s shadow_cooldown matches 42 if predicate superitems_reborn:is_sneaking at @s unless predicate superitems_reborn:in_air run scoreboard players add @s shadow_cooldown 1
-execute as @s if score @s shadow_cooldown matches 42 if predicate superitems_reborn:is_not_sneaking at @s run function superitems_reborn:particles/disappear
-execute as @s if score @s shadow_cooldown matches 42 if predicate superitems_reborn:is_not_sneaking at @s at @a[gamemode=!creative,gamemode=!spectator,distance=1..20,sort=nearest,limit=1] rotated ~ 0 positioned ^ ^ ^-1 facing entity @a[gamemode=!creative,gamemode=!spectator,distance=..20,sort=nearest,limit=1] feet run tp ~ ~ ~
-execute as @s if score @s shadow_cooldown matches 42 if predicate superitems_reborn:is_not_sneaking at @s run effect give @s strength 2 2 true
+execute as @s[scores={abilities_disabled=0}] if predicate superitems_reborn:is_sneaking at @s unless predicate superitems_reborn:in_air run function superitems_reborn:unicode_sender/prep_unicode/shadow_cooldown
+execute as @s[scores={abilities_disabled=0}] unless score @s shadow_cooldown matches 42 if predicate superitems_reborn:is_sneaking at @s unless predicate superitems_reborn:in_air run scoreboard players add @s shadow_cooldown 1
+execute as @s[scores={abilities_disabled=0}] if score @s shadow_cooldown matches 42 if predicate superitems_reborn:is_not_sneaking at @s run function superitems_reborn:particles/disappear
+execute as @s[scores={abilities_disabled=0}] if score @s shadow_cooldown matches 42 if predicate superitems_reborn:is_not_sneaking at @s at @a[gamemode=!creative,gamemode=!spectator,distance=1..20,sort=nearest,limit=1] rotated ~ 0 positioned ^ ^ ^-1 facing entity @a[gamemode=!creative,gamemode=!spectator,distance=..20,sort=nearest,limit=1] feet run tp ~ ~ ~
+execute as @s[scores={abilities_disabled=0}] if score @s shadow_cooldown matches 42 if predicate superitems_reborn:is_not_sneaking at @s run effect give @s strength 2 2 true
 execute as @s if predicate superitems_reborn:is_not_sneaking run scoreboard players set @s shadow_cooldown 0

@@ -15,3 +15,5 @@ execute as @a unless predicate superitems_reborn:in_air unless predicate superit
 execute as @a[scores={abilities_disabled=1}] run scoreboard players set @s candoleap 0
 
 execute as @a[scores={toggle_abilities=1..}] run function superitems_reborn:toggle_abilities
+
+execute as @a[scores={shadow_cooldown=1..41}] unless predicate superitems_reborn:shadow_active run scoreboard players set @s shadow_cooldown 0

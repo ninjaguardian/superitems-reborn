@@ -13,6 +13,7 @@ execute as @e[tag=frozen] run data merge entity @s {NoAI:0b}
 tag @e remove leachvictim
 tag @e remove leachattacker
 tag @e remove frozen
+tag @e remove testleachattacker
 tag @e remove freeze_cooldown
 tag @e remove cooldownleap
 advancement revoke @a only superitems_reborn:tab/leach

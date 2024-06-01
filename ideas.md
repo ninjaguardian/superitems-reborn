@@ -16,7 +16,6 @@ Frozen - Sword
 
 # Minor issue
 - When first getting a cooldown, when it uses add to get to the right value, it goes through all other unicode charecters
-- how do i dissable leach & shadow
 
 # Runic ingots
 - CustomModelData
