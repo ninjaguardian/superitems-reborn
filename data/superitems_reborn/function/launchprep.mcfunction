@@ -4,7 +4,7 @@
 # execute as @s[scores={lauch_cooldown=68}] at @s if predicate superitems_reborn:is_sneaking if predicate superitems_reborn:in_air run scoreboard players set @s lauch_cooldown 43
 
 
-execute as @s[scores={lauch_cooldown=68}] at @s run scoreboard players set @s lauch_cooldown 43
-execute as @s[scores={lauch_cooldown=43}] at @s run function superitems_reborn:particles/leap
-execute as @s[scores={lauch_cooldown=43}] at @s run function superitems_reborn:skriptlaunch
-execute as @s[scores={lauch_cooldown=43}] at @s run tag @s add cooldownleap
+execute as @s[scores={lauch_cooldown=68,candoleap=1}] at @s run scoreboard players set @s lauch_cooldown 43
+execute as @s[scores={lauch_cooldown=43,candoleap=1}] at @s run function superitems_reborn:particles/leap
+execute as @s[scores={lauch_cooldown=43,candoleap=1}] at @s run function superitems_reborn:skriptlaunch
+execute as @s[scores={lauch_cooldown=43,candoleap=1}] at @s run tag @s add cooldownleap
