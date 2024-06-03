@@ -1,8 +1,8 @@
 # Super types
-Leap - enchantment for boots
+Leap - boots
 Shadow - sword
-Leach - sword enchant
-Frozen - Sword
+Leach - head
+Frozen - legs
 
 
 # Ideas
