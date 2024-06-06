@@ -3,11 +3,11 @@
 
 - [ ] Leap - boots
 
-- Shadow - DAGGER
+- [ ] Shadow - DAGGER
 
-- Leach - head
+- [X] Leach - head
 
-- Frozen - legs
+- [X] Frozen - legs
 
   
 
@@ -19,9 +19,9 @@
 
 ### mage sword
 
-- Uses fangs
+- [ ] Uses fangs
 
-- Change step height attribute and reach
+- [ ] Change step height attribute and reach
 
   
 
@@ -35,11 +35,11 @@
 
 - Change leap to have 3 enchant levels.
 
-    1. default launch
+    1. [X] default launch
 
-    2. gains the ability for double jump by pressing [F] 2 times in quick secession. There will also be a little box indicator with the leap logo inside slowly desaturation up to down after you press the first [F]. You must press [F] again in that time period and be in the air for it to activate.
+    2. [ ] gains the ability for double jump by pressing [F] 2 times in quick secession. There will also be a little box indicator with the leap logo inside slowly desaturation up to down after you press the first [F]. You must press [F] again in that time period and be in the air for it to activate.
 
-    3. gains the ability for angled leaps instead of the default. (The default can still be activated by pressing [F] and shifting while the indicator is up). It will launch the player in the way they are already moving.
+    3. [ ] gains the ability for angled leaps instead of the default. (The default can still be activated by pressing [F] and shifting while the indicator is up). It will launch the player in the way they are already moving.
 
   
 
@@ -53,9 +53,6 @@
 
 ### Good stuff
 
-  
-
-- Runics can't be enderchested
 
 - Advancements?
 
@@ -74,3 +71,5 @@
 - When first getting a cooldown, when it uses add to get to the right value, it goes through all other Unicode characters
 
 - creative and spectator are not immune to supers
+
+- Runics can be enderchested
