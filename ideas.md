@@ -1,7 +1,7 @@
 
 # **Super types**
 
-- Leap - boots
+- [ ] Leap - boots
 
 - Shadow - DAGGER
 
